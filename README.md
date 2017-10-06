@@ -1,3 +1,8 @@
-# learning-note
-
-这是我的学习笔记。
+[git上传github.md](learning-note/blog/master/git上传github.md/)
+[REAND.md](learning-note/blog/master/REAND.md/)
+[ssh.md](learning-note/blog/master/ssh.md/)
+[git命令.md](learning-note/blog/master/git命令.md/)
+[python命令.md](learning-note/blog/master/python命令.md/)
+[索引and B树.md](learning-note/blog/master/索引and B树.md/)
+[hash.md](learning-note/blog/master/hash.md/)
+[README.md](learning-note/blog/master/README.md/)

@@ -11,4 +11,4 @@ with open('README.md', 'w') as f:
     for filename in files:
         if filename.endswith('.md'):
             encoded_filename = urllib.parse.quote(filename)
-            f.write('* [{0}](learning-note/{1}]/)\n'.format(filename, encoded_filename))
+            f.write('* [{0}](learning-note/{1}/)\n'.format(filename, encoded_filename))

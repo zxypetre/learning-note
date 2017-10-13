@@ -1,4 +1,5 @@
 `pwd` 显示当前目录 
+`git log` 提交的记录
 `git init` 创建git仓库
 `git add`  在git中添加文件
 `git commit -m '修改信息'`  提交文件（既修改信息）

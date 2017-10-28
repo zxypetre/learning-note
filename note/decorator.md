@@ -36,6 +36,6 @@ print(0)
 output：x,5,1,2,10,text执行花了()s,0
 
 * 装饰器相当于一个嵌套函数
-* @wraps非常重要，如果没有@wraps，相当于改变了原函数的__name__，它的作用等同与t.__name__ = func.__name__。
+* @wraps非常重要，如果没有@wraps，相当于改变了原函数__name__，它的作用等同与t.__name__ = func.__name__。
 * *args可以代替多个参数.
 * *kwargsk可以代替多个关键字参数

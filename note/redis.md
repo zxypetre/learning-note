@@ -11,7 +11,15 @@ Redis具有内置复制，Lua脚本，LRU驱逐，事务和不同级别的磁盘
 7. smembers key 集合中key对应的value
 ## flask使用redis
     import redis   引入redis
-    rdb = redis.(Strict)Redis(host='localhost',port=6379,db=0)  
+    rdb = redis.(Strict)Redis(host='localhost',port=6379,db=0)
+    rdb.set(key,value，ex=None, px=None, nx=False, xx=False)  
+            在Redis中设置值，默认，不存在则创建，存在则修改
+        参数：
+            ex，过期时间（秒）
+            px，过期时间（毫秒）
+            nx，如果设置为True，则只有name不存在时，当前set操作才执行
+            xx，如果设置为True，则只有name存在时，岗前set操作才执行
+
     rdb.mset(key1='value1',key2='value2'...)    
     rdb.get('key1')
     

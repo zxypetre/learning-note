@@ -4,9 +4,6 @@
 import time
 from functools import wraps
 
-def test1():
-    print(2)
-print('x')
 def T(func):
     print(1)
     @wraps(func)
@@ -22,15 +19,12 @@ def T(func):
     test1()
     return t
 
-print(5)
 @T
 def test():
     for i in range(100):
         pass      
 
-print(10)
 test()
-print(0)
 ```
 @T相当于test = T(text),此时只执行了T函数，不过没有执行t函数，所以上面的打印顺序是：
 output：x,5,1,2,10,text执行花了()s,0

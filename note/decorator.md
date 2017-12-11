@@ -9,7 +9,7 @@ def T(func):
     @wraps(func)
     def t(*args,**kwargs):
         #t0=time.strftime('%X')
-        t1=time.time()suoyi
+        t1=time.time()
         f=func(*args,**kwargs)
         #t2=time.strftime('%X')
         t3=time.time()
@@ -27,7 +27,7 @@ def test():
 test()
 ```
 @T相当于test = T(text),此时只执行了T函数，不过没有执行t函数，所以上面的打印顺序是：
-output：x,5,1,2,10,text执行花了()s,0
+output：1,2,text执行花了()s
 
 * 装饰器相当于一个嵌套函数
 * @wraps非常重要，如果没有@wraps，相当于改变了原函数__name__，它的作用等同与t.__name__ = func.__name__。

@@ -1,5 +1,5 @@
 # POSTGRESQL
-1. psql -u dbuer -d exampledb -h 127.0.0.1 -p 5432  进去控制台命令
+1. psql -u dbuser -d exampledb -h 127.0.0.1 -p 5432  进去控制台命令
     
     -u指定用户，-d指定数据库，-h指定服务器，-p指定端口
 2. 控制台命令

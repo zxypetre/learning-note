@@ -16,6 +16,7 @@
 15. alias 创建常用命令的快捷形式
 16. tail 默认输出文件后10行内容；tail -n file   输出文件后n行，tail -n+k file 从文件第k行开始输出;tail -f file 动态跟踪文件file的增长情况，tail会每隔一秒检查一下文件是否增加了新内容
 17. apt-get 用于自动从互联网的软件仓库中搜索、安装、升级、卸载软件或操作系统。
+    1. -f 尝试修正系统依赖损坏处
 18. 1. echo hello>>text.txt   将hello添加到text.txt文本末尾
     2. echo hello>text.txt 将text.txt的内容替换成hello
 19. chmod命令用于改变linux系统文件或目录的访问权限。用它控制文件或目录的访问权限。该命令有两种用法。一种是包含字母和操作符表达式的文字设定法；另一种是包含数字的数字设定法。

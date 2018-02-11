@@ -49,6 +49,6 @@
     7. dpkg -S keyword	搜索所属的包内容
     8. dpkg -l	列出当前已安装的包
     9. dpkg -c package.deb	列出 deb 包的内容
-    10. dpkg –configure package	配置包
     11. dpkg
+    10. dpkg –configure package	配置包
     11. dpkg --force-confmiss -i /var/cache/apt/archives/nginx-common_*.deb   将丢失的包补回来

@@ -58,6 +58,6 @@
     
     * dpkg -c package.deb	列出 deb 包的内容
     
-    * dpkg -configure package   配置包
+    * dpkg -configure package 配置包
     
-    * dpkg --force-confmiss -i /var/cache/apt/archives/nginx-common_*.deb   将丢失的包补回来
+    * dpkg --force-confmiss -i /var/cache/apt/archives/nginx-common_*.deb 将丢失的包补回来

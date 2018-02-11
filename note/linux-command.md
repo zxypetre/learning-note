@@ -49,8 +49,5 @@
     * dpkg -S keyword	搜索所属的包内容
     * dpkg -l	列出当前已安装的包
     * dpkg -c package.deb	列出 deb 包的内容
-    * dpkg -configure package   配置包
-    * dpkg --force-confmiss -i 包的路径+package   将丢失的包补回来
-    * dpkg --force-confmiss -i 包的路径+package   将丢失的包补回来
-    * dpkg -configure package   配置包
-    * dpkg --force-confmiss -i /var/cache/apt/archives/nginx-common_*.deb 将丢失的包补回来
+    * dpkg -configure package   配置包
+    * dpkg --force-confmiss -i /var/cache/apt/archives/nginx-common_*.deb   将丢失的包补回来

@@ -40,7 +40,7 @@
 +                 若要rwx属性则4+2+1=7
 +                 若要rw-属性则4+2=6；
 +                 若要r-x属性 则4+1=7。 
-20. 1. dpkg -i package.deb	安装包
+20. * 1. dpkg -i package.deb	安装包
     2. dpkg -r package	删除包
     3. dpkg -P package	删除包（包括配置文件）
     4. dpkg -L package	列出与该包关联的文件

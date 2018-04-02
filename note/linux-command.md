@@ -48,6 +48,6 @@
     + dpkg –unpack package.deb	解开 deb 包的内容
     + dpkg -S keyword	搜索所属的包内容
     + dpkg -l	列出当前已安装的包
-    + dpkg -c package.deb 列出deb包的内容
-    + dpkg -configure package 配置包
-    + dpkg --force-confmiss -i package路径 将丢失的包补回来
+    + dpkg -c package.deb 列出deb包的内容
+    + dpkg -configure package 配置包
+    + dpkg --force-confmiss -i package路径 将丢失的包补回来

@@ -1,0 +1,2 @@
+用户请求使用节点ip+nodeport --> traefik service --> traefix pod的targetport端口 --> 根据ingress规则找到对应的service --> 通过selector找到对应的pod向service中对应的targetport端口请求
+请求流量详解：https://zhuanlan.zhihu.com/p/567225649
